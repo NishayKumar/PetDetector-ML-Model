@@ -11,6 +11,7 @@
 		9D394E792A9C6B42009ADEE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D394E782A9C6B42009ADEE9 /* ContentView.swift */; };
 		9D394E7B2A9C6B44009ADEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D394E7A2A9C6B44009ADEE9 /* Assets.xcassets */; };
 		9D394E7E2A9C6B44009ADEE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D394E7D2A9C6B44009ADEE9 /* Preview Assets.xcassets */; };
+		9DBA645A2A9D23BF00A3F7AA /* CatsAndDogsModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA64592A9D23BF00A3F7AA /* CatsAndDogsModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9D394E782A9C6B42009ADEE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D394E7A2A9C6B44009ADEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D394E7D2A9C6B44009ADEE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DBA64592A9D23BF00A3F7AA /* CatsAndDogsModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatsAndDogsModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				9D394E762A9C6B42009ADEE9 /* PetDetectorApp.swift */,
 				9D394E782A9C6B42009ADEE9 /* ContentView.swift */,
 				9D394E7A2A9C6B44009ADEE9 /* Assets.xcassets */,
+				9DBA645B2A9D23CC00A3F7AA /* Model */,
 				9D394E7C2A9C6B44009ADEE9 /* Preview Content */,
 			);
 			path = PetDetector;
@@ -65,6 +68,14 @@
 				9D394E7D2A9C6B44009ADEE9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DBA645B2A9D23CC00A3F7AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA64592A9D23BF00A3F7AA /* CatsAndDogsModel.mlmodel */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBA645A2A9D23BF00A3F7AA /* CatsAndDogsModel.mlmodel in Sources */,
 				9D394E792A9C6B42009ADEE9 /* ContentView.swift in Sources */,
 				9D394E772A9C6B42009ADEE9 /* PetDetectorApp.swift in Sources */,
 			);
